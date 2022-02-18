@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+.main{
+  text-align: left;
+}
+.movie{
+  width:280px;
+  margin: 0.5rem;
+}
+.buttons{
+ 
+  gap: 5px;
+}
+.toggle{
+  color: blue;
+  width:60px;
+  height:60px;
+  display : flex;
+ border-radius: 5px;
+ align-items: center;
+ justify-content: space-between;
+ cursor: pointer;
+  object-fit: cover;
+}
+.movie-image{
+  
+  height:280px;
+  width:280px;
+  object-fit:cover;
+  
+}
+
+.movie-desc{
+  display:flex;
+  justify-content: space-between;
+  
+}
+.movie-container{
+  display:flex;
+  justify-content: space-between;
+  
+}
+.movie-details{
+  width:80%;
+}
+.rating{
+  
+  font-size: 18px;
+  color: green;
+  font-family:'Segoe UI';
+}
+.movie-rating{
+  
+  font-size: 18px;
+}
+.movie-name{
+  font-size: 20px;
+  color:#1e90ff;
+  font-family:'Trebuchet MS';
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.movie-title{
+  font-size: 25px;
+  color:black;
+  font-weight: bold;
+}
+.summary{
+  margin-top: 0px;
+  text-align: left;
+  font-family: cursive;
+  color:darkslategrey;
+}
+.movie-name,.rating,.movie-title,.movie-rating{
+  margin-top: 8px;
+}
+.movie-list{
+  display:flex;
+  gap:8px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.counter{
+  display:flex;
+  gap:10px;
+}
+.add-movie{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding:16px;
+}
+.add-movie>input,
+.add-movie>button{
+  font-size: 18px;
+}
+.update{
+  display:flex;
+  gap: 20px;
+}
+ul{
+  list-style-type:none;
+  display:flex;
+  gap: 20px;
+  
+  }
+Link{
+  color:royalblue;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
